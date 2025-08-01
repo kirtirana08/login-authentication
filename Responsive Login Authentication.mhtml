@@ -1,0 +1,118 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: http://127.0.0.1:5500/login%20authentication/index.html
+Subject: Responsive Login Authentication
+Date: Sat, 2 Aug 2025 01:18:28 +0530
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--Qfxtck6wM18jpcgRGSAnj4wnalC0KUOJIO6uwmRMUl----"
+
+
+------MultipartBoundary--Qfxtck6wM18jpcgRGSAnj4wnalC0KUOJIO6uwmRMUl----
+Content-Type: text/html
+Content-ID: <frame-DB7914921107C96740FE129DB0E27E05@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://127.0.0.1:5500/login%20authentication/index.html
+
+<!DOCTYPE html><html lang=3D"en"><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html; charset=3DUTF-8">
+ =20
+  <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D=
+1.0">
+  <title>Responsive Login Authentication</title>
+ =20
+<link rel=3D"stylesheet" href=3D"http://127.0.0.1:5500/login%20authenticati=
+on/style.css?_cacheOverride=3D1754077532486"></head>
+<body>
+  <div id=3D"container" class=3D"fade-in">
+    <h2>Register</h2>
+    <div id=3D"registerDiv">
+      <input type=3D"text" id=3D"regUsername" placeholder=3D"Username"><br>
+      <input type=3D"password" id=3D"regPassword" placeholder=3D"Password">=
+<br>
+      <button>Register</button>
+      <p>Already have an account? <a href=3D"http://127.0.0.1:5500/login%20=
+authentication/index.html#">Login</a></p>
+    </div>
+
+    <h2 class=3D"hidden" id=3D"loginTitle">Login</h2>
+    <div id=3D"loginDiv" class=3D"hidden">
+      <input type=3D"text" id=3D"loginUsername" placeholder=3D"Username"><b=
+r>
+      <input type=3D"password" id=3D"loginPassword" placeholder=3D"Password=
+"><br>
+      <button>Login</button>
+      <p>Don't have an account? <a href=3D"http://127.0.0.1:5500/login%20au=
+thentication/index.html#">Register</a></p>
+    </div>
+
+    <div id=3D"securePage" class=3D"hidden">
+      <h2>Welcome!</h2>
+      <p>You have logged in successfully.</p>
+      <button>Logout</button>
+    </div>
+  </div>
+
+ =20
+<!-- Code injected by live-server -->
+
+
+
+</body></html>
+------MultipartBoundary--Qfxtck6wM18jpcgRGSAnj4wnalC0KUOJIO6uwmRMUl----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://127.0.0.1:5500/login%20authentication/style.css?_cacheOverride=1754077532486
+
+@charset "utf-8";
+
+* { box-sizing: border-box; }
+
+body { font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; backgr=
+ound: url("https://images.unsplash.com/photo-1474215031449-78d70ffbba7f?fit=
+=3Dcrop&w=3D1500&q=3D80") center center / cover no-repeat fixed; animation:=
+ 60s linear 0s infinite normal none running backgroundMove; display: flex; =
+justify-content: center; align-items: center; min-height: 100vh; margin: 0p=
+x; color: rgb(255, 255, 255); }
+
+#container { background: rgba(0, 0, 0, 0.7); padding: 30px; border-radius: =
+10px; box-shadow: rgba(0, 0, 0, 0.5) 0px 8px 20px; width: 90%; max-width: 3=
+50px; text-align: center; animation: 0.8s ease 0s 1 normal none running sli=
+deIn; }
+
+input { width: 90%; padding: 10px; margin: 10px 0px; border: 1px solid rgb(=
+221, 221, 221); border-radius: 5px; transition: border-color 0.3s; }
+
+input:focus { border-color: rgb(76, 175, 80); outline: none; }
+
+button { padding: 12px 25px; background: rgb(76, 175, 80); color: white; bo=
+rder: none; border-radius: 25px; cursor: pointer; transition: transform 0.2=
+s, background 0.3s; }
+
+button:hover { background: rgb(67, 160, 71); transform: scale(1.05); }
+
+.hidden { display: none; }
+
+.fade-in { animation: 1s ease 0s 1 normal none running fadeIn; }
+
+@keyframes slideIn {=20
+  0% { opacity: 0; transform: translateY(-20px); }
+  100% { opacity: 1; transform: translateY(0px); }
+}
+
+@keyframes fadeIn {=20
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes backgroundMove {=20
+  0% { background-position: 0px 0px; }
+  100% { background-position: 1000px 0px; }
+}
+
+@media (max-width: 500px) {
+  #container { padding: 20px; }
+  button { width: 100%; }
+  input { width: 100%; }
+}
+------MultipartBoundary--Qfxtck6wM18jpcgRGSAnj4wnalC0KUOJIO6uwmRMUl------
